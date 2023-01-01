@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>csslab 4</title>
+    <link rel="stylesheet" href="styles4.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
+    />
+  </head>
+  <body>
+    <!-- main -->
+    <main class="container">
+      <!-- table -->
+      <div class="table-header">
+        <div class="drop-down">
+          <label for="options">show</label>
+          <select id="options">
+            <option value="">1</option>
+            <option value="">2</option>
+            <option value="" selected>3</option>
+            <option value="">4</option></select
+          ><span>entries</span>
+        </div>
+        <h1 id="content-heading">Customer<b>Details</b></h1>
+        <input
+          type="text"
+          name="searchbox"
+          id="searchbox"
+          placeholder="search"
+        />
+      </div>
+      <table>
+        <thead id="details">
+          <tr>
+            <th>#</th>
+            <th>
+              Name <span><i class="fa-solid fa-sort"></i></span>
+            </th>
+            <th>Address</th>
+            <th>
+              City <span><i class="fa-solid fa-sort"></i></span>
+            </th>
+            <th>Pincode</th>
+            <th>
+              Country <span><i class="fa-solid fa-sort"></i></span>
+            </th>
+            <th>Actions</th>
+          </tr>
+        </thead>
+        <tbody id="details">
+          <tr>
+            <td>1</td>
+            <td>Thomas Hardy</td>
+            <td>89 Chiraso Rd.</td>
+            <td>Portland</td>
+            <td>91265</td>
+            <td>USA</td>
+            <td>
+              <span class="material-symbols-outlined" style="color: lightblue">
+                visibility </span
+              ><span class="material-symbols-outlined" style="color: yellow">
+                edit
+              </span>
+              <span class="material-symbols-outlined">delete</span>
+            </td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>Maria Anders</td>
+            <td>Obers Str.57</td>
+            <td>Berlin</td>
+            <td>11223</td>
+            <td>Germany</td>
+            <td>
+              <span class="material-symbols-outlined" style="color: lightblue">
+                visibility </span
+              ><span class="material-symbols-outlined" style="color: yellow">
+                edit
+              </span>
+              <span class="material-symbols-outlined">delete</span>
+            </td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>Fran Willison</td>
+            <td>C/Araquil,67</td>
+            <td>Madrid</td>
+            <td>28672</td>
+            <td>Spain</td>
+            <td>
+              <span class="material-symbols-outlined" style="color: lightblue">
+                visibility </span
+              ><span class="material-symbols-outlined" style="color: yellow">
+                edit
+              </span>
+              <span class="material-symbols-outlined">delete</span>
+            </td>
+          </tr>
+          <tr>
+            <td>4</td>
+            <td>Cristiano Ronaldo</td>
+            <td>77 Espana lane</td>
+            <td>Lisbon</td>
+            <td>98643</td>
+            <td>Portugal</td>
+            <td>
+              <span class="material-symbols-outlined" style="color: lightblue">
+                visibility </span
+              ><span class="material-symbols-outlined" style="color: yellow">
+                edit
+              </span>
+              <span class="material-symbols-outlined">delete</span>
+            </td>
+          </tr>
+          <tr>
+            <td>5</td>
+            <td>Neymar JR</td>
+            <td>66 Sao palo</td>
+            <td>Sao Paualo</td>
+            <td>55372</td>
+            <td>Brazil</td>
+            <td>
+              <span class="material-symbols-outlined" style="color: lightblue">
+                visibility </span
+              ><span class="material-symbols-outlined" style="color: yellow">
+                edit
+              </span>
+              <span class="material-symbols-outlined">delete</span>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <p id="entries">Showing <b>5</b> out of <b>25</b> entries</p>
+      <div class="pagination">
+        <a href="#">Previous</a>
+        <a id="list" href="#">1</a>
+        <a id="list" href="#">2</a>
+        <a id="list" href="#">3</a>
+        <a id="list" href="#">4</a>
+        <a href="#">Next</a>
+      </div>
+    </main>
+  </body>
+</html>
